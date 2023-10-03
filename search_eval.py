@@ -31,7 +31,7 @@ def load_ranker(cfg_file):
     #return metapy.index.DirichletPrior(2500.0)
     #return InL2Ranker(6.2)
     #HIGHEST BM25
-    return metapy.index.OkapiBM25(k1 = 1.85, b = .6, k3 = 500.0)
+    return metapy.index.OkapiBM25(k1 = 1.95, b = .6, k3 = 500.0)
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
