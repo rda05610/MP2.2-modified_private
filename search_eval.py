@@ -23,6 +23,7 @@ class InL2Ranker(metapy.index.RankingFunction):
        #return (self.param + sd.doc_term_count) / (self.param * sd.doc_unique_terms + sd.doc_size)
 
 def load_ranker(cfg_file):
+    #test
     """
     Use this function to return the Ranker object to evaluate, 
     The parameter to this function, cfg_file, is the path to a
